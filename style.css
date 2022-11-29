@@ -21,7 +21,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #200439;
+    background-color: #222831;
     color: #fff;
 }
 
@@ -44,15 +44,16 @@ body {
 }
 
 .heroText {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-bottom: 2rem;
     text-align: center;
     letter-spacing: 5px;
 }
 .heroName {
-    color: #c5b358;
-    font-size: 2.5rem;
+    color: #00ADB5;
+    font-size: 3rem;
     text-transform: uppercase;
+    text-shadow: 15px 15px 11px #000
 }
 
 .heroTextTop {
@@ -70,18 +71,18 @@ body {
 .button {
     background-color: #fff;
     padding: 1rem;
-    border: 1px solid #9277AC;
+    border: 1px solid #00ADB5;
     border-radius: 25px;
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: #200439;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #222831;
     text-decoration: none;
-    box-shadow: 8px 8px 4px #000;
+    box-shadow: 15px 15px 11px #000;
 }
 
 .button:hover {
-    background-color: #361356;
-    color: #c5b358;
+    background-color: #222831;
+    color: #00ADB5;
     transform: scale(1.3);
     /* (150% zoom - Note: If the zoom is too large, it will go outside of the viewport) */
 }
@@ -99,7 +100,7 @@ body {
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
-    border: 1px solid #9277AC;
+    border: 1px solid #222831;
     border-radius: 1rem;
     box-shadow: 10px 10px 5px #000;
 }
@@ -145,7 +146,7 @@ body {
 
 footer {
     text-align: center;
-    color: #c5b358;
+    color: #00ADB5;
     margin: 10rem 0;
     border-top: 1px solid #9277AC;
 }
@@ -154,7 +155,7 @@ footer {
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    color: #c5b358;
+    color: #EEEEEE;
     display: block;
 }
 
