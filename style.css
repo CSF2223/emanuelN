@@ -19,7 +19,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     font-weight: 300;
     background-color: #222831;
     color: #fff;
@@ -88,17 +88,17 @@ body {
 }
 
 .projectsHeader {
-    margin: 1.5rem 3rem;
+    margin: 0.5rem 2rem;
     text-align: center;
     padding: 0.5rem;
     letter-spacing: 4px;
 }
 
 .projectCard {
-    background-color: #fff;
+    background-color: #EEEEEE;
     color: #200439;
-    margin: 4rem 3rem;
-    padding: 0.5rem 2rem;
+    margin: 2rem 1rem;
+    padding: 0.2rem 1.5rem;
     text-align: center;
     border: 1px solid #222831;
     border-radius: 1rem;
@@ -146,7 +146,7 @@ body {
 
 footer {
     text-align: center;
-    color: #00ADB5;
+    color: #EEEEEE;
     margin: 10rem 0;
     border-top: 1px solid #9277AC;
 }
@@ -166,6 +166,10 @@ footer {
     align-items: center;
     margin: 0;
     height: 80vh;
+}
+
+.filler h1 {
+    font-size: 2rem;
 }
 
 
