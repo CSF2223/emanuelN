@@ -44,7 +44,7 @@ body {
 }
 
 .heroText {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-bottom: 2rem;
     text-align: center;
     letter-spacing: 5px;
@@ -147,14 +147,14 @@ body {
 footer {
     text-align: center;
     color: #EEEEEE;
-    margin: 10rem 0;
-    border-top: 1px solid #9277AC;
+    margin: 12rem 0;
+    border-top: 2px solid #9277AC;
 }
 
 .copyright {
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
+    margin: 2rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
     color: #EEEEEE;
     display: block;
 }
@@ -165,11 +165,15 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0;
-    height: 80vh;
+    height: 90vh;
 }
 
 .filler h1 {
     font-size: 2rem;
+}
+
+.filler h3 {
+    letter-spacing: 4.5px;
 }
 
 
@@ -182,11 +186,11 @@ footer {
     }
     
     .heroText {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
     .heroName {
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
     
     .button {
@@ -203,4 +207,6 @@ footer {
     .projectCard {
         max-width: 20%;
     }
+    
 }
+

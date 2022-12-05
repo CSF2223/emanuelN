@@ -17,12 +17,12 @@ black: #000
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 1.2rem;
 }
 
 .logo {
-    font-size: 2rem;
-    margin: 0.75rem 2.5rem;
+    font-size: 2.3rem;
+    margin: 0.90rem 2.7rem;
     color: #00ADB5;
     font-family: 'Courgette';
 }
@@ -36,13 +36,13 @@ black: #000
 .navbar-links li {
     list-style: none;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .navbar-links li a {
     text-decoration: none;
     color: #fff;
-    padding: 0.3rem 2rem;
+    padding: 0.4rem 2rem;
     display: block;
 }
 
@@ -53,22 +53,22 @@ black: #000
 .toggle-button {
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: 1.3rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 32px;
-    height: 18px;
+    width: 33px;
+    height: 17px;
 }
 
 .toggle-button .bar {
     height: 3px;
     width: 100%;
     background-color: #EEEEEE;
-    border-radius: 12px;
+    border-radius: 15px;
 }
 
-.bottomNav{
+.bottomNav {
     margin: 0;
     padding: 0;
     display: flex;
@@ -79,7 +79,7 @@ black: #000
 .bottomNav li {
     list-style: none;
     font-size: 1rem;
-    padding: 0 0.8rem;
+    padding: 0 0.5rem;
 }
 
 .bottomNav li a {
